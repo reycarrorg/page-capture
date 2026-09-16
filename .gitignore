@@ -1,0 +1,17 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+__pycache__/
+*.py[cod]
+Page Capture Sessions/
+Captures/
+Exports/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
