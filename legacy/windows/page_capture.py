@@ -246,7 +246,7 @@ def create_image_pdf(
                     buffer.seek(0)
                     source = ImageReader(buffer)
                 else:
-                    source = ImageReader(image.copy())
+                    source = ImageReader(image)
 
                 document.drawImage(
                     source,
