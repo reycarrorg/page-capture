@@ -1,51 +1,24 @@
-import sys
 import queue
 import unittest
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock
+
+from legacy.windows.page_capture import HotkeyListener
+import legacy.windows.page_capture
 
 class TestHotkeyListener(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        # Stub minimum needed for portable import
-        cls.original_wintypes = sys.modules.get('ctypes.wintypes')
-        cls.original_ctypes = sys.modules.get('ctypes')
-
-        sys.modules['ctypes.wintypes'] = MagicMock()
-        sys.modules['ctypes'] = MagicMock()
-
-        # Import now that dependencies are mocked
-        from legacy.windows.page_capture import HotkeyListener
-        cls.HotkeyListener = HotkeyListener
-
-    @classmethod
-    def tearDownClass(cls):
-        # Restore mocks
-        if cls.original_wintypes is not None:
-            sys.modules['ctypes.wintypes'] = cls.original_wintypes
-        else:
-            del sys.modules['ctypes.wintypes']
-
-        if cls.original_ctypes is not None:
-            sys.modules['ctypes'] = cls.original_ctypes
-        else:
-            del sys.modules['ctypes']
-
     def setUp(self):
         self.events_queue = queue.Queue()
-        self.listener = self.HotkeyListener(self.events_queue)
+        self.listener = HotkeyListener(self.events_queue)
 
         # We will mock _key_is_pressed for _poll_once tests
         self.listener._key_is_pressed = MagicMock()
 
         # Extract hotkeys to have easy access to the keys mapping
-        self.hotkeys = self.HotkeyListener.HOTKEYS
+        self.hotkeys = HotkeyListener.HOTKEYS
 
         # The dictionary needs to contain all HOTKEYS to mimic production behavior
         # because the for loop in _poll_once iterates over HOTKEYS
         self.default_previous = {k: False for k in self.hotkeys}
-
-    def tearDown(self):
-        pass
 
     def test_key_press_from_unpressed_state(self):
         # Setup initial state: F8 (capture) was not pressed
@@ -143,6 +116,12 @@ class TestHotkeyListener(unittest.TestCase):
         self.assertFalse(previous[0x77]) # Transitioned False
         self.assertTrue(previous[0x78])  # Transitioned True
         self.assertFalse(previous[0x79]) # Still False
+
+class TestCtypesRestoration(unittest.TestCase):
+    def test_ctypes_remains_real(self):
+        import ctypes
+        self.assertIsNot(legacy.windows.page_capture.ctypes, MagicMock)
+        self.assertIs(legacy.windows.page_capture.ctypes, ctypes)
 
 if __name__ == '__main__':
     unittest.main()
