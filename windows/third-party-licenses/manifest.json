@@ -1,0 +1,312 @@
+[
+  {
+    "component": "altgraph",
+    "source": "altgraph-0.17.5.dist-info/LICENSE",
+    "path": "windows/third-party-licenses/altgraph/LICENSE",
+    "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+  },
+  {
+    "component": "charset-normalizer",
+    "source": "charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/charset-normalizer/LICENSE",
+    "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1"
+  },
+  {
+    "component": "packaging",
+    "source": "packaging-26.3.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/packaging/LICENSE",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "component": "packaging",
+    "source": "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+    "path": "windows/third-party-licenses/packaging/LICENSE.APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "component": "packaging",
+    "source": "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+    "path": "windows/third-party-licenses/packaging/LICENSE.BSD",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "component": "pefile",
+    "source": "pefile-2024.8.26.dist-info/LICENSE",
+    "path": "windows/third-party-licenses/pefile/LICENSE",
+    "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+  },
+  {
+    "component": "pillow",
+    "source": "pillow-12.3.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/pillow/LICENSE",
+    "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+  },
+  {
+    "component": "pyinstaller",
+    "source": "pyinstaller-6.22.3.dist-info/licenses/COPYING.txt",
+    "path": "windows/third-party-licenses/pyinstaller/COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "component": "pyinstaller-hooks-contrib",
+    "source": "pyinstaller_hooks_contrib-2026.8.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/pyinstaller-hooks-contrib/LICENSE",
+    "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+  },
+  {
+    "component": "pypdf",
+    "source": "pypdf-6.10.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/pypdf/LICENSE",
+    "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/LICENSES/Apache-2.0.txt",
+    "path": "windows/third-party-licenses/pypdfium2/Apache-2.0.txt",
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/LICENSES/BSD-3-Clause.txt",
+    "path": "windows/third-party-licenses/pypdfium2/BSD-3-Clause.txt",
+    "sha256": "ad9a9e823df025f42389c1812eae28019f657d1ed7b3a4ebfd5010b0736a0da4"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/LICENSES/CC-BY-4.0.txt",
+    "path": "windows/third-party-licenses/pypdfium2/CC-BY-4.0.txt",
+    "sha256": "f1b1748301cd4274f46733c218d510929661b4990855de5fc645dacd69c4371c"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/abseil.txt",
+    "path": "windows/third-party-licenses/pypdfium2/abseil.txt",
+    "sha256": "f54fff0b905df5b3464527c652a30e903b172d6dcab4d89b5e6f105d5e4a4603"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/agg23.txt",
+    "path": "windows/third-party-licenses/pypdfium2/agg23.txt",
+    "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/fast_float.txt",
+    "path": "windows/third-party-licenses/pypdfium2/fast_float.txt",
+    "sha256": "bf1b57355feca8fce77ee95f48002f8d4789fb71b30ec7599c06cda4901fbb2b"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/freetype.txt",
+    "path": "windows/third-party-licenses/pypdfium2/freetype.txt",
+    "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/icu.txt",
+    "path": "windows/third-party-licenses/pypdfium2/icu.txt",
+    "sha256": "93679f4389d53b6835d89843f251844fb9bc455b35bab036d3c8e7abe497a47a"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/lcms.txt",
+    "path": "windows/third-party-licenses/pypdfium2/lcms.txt",
+    "sha256": "7312b68c5b25e9bf2b828706fb4e29588f22705112f411fd42e1f7d84c3d139a"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+    "path": "windows/third-party-licenses/pypdfium2/libjpeg_turbo.ijg",
+    "sha256": "db16a04128171879c60708d171b88d97345a2dd20f9bfc173680a4497c73f704"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+    "path": "windows/third-party-licenses/pypdfium2/libjpeg_turbo.md",
+    "sha256": "be2b2b5ab168bce87bc3e31f2a5c5adba4b7f6e9e51d618e958d1d46972ebd95"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libopenjpeg.txt",
+    "path": "windows/third-party-licenses/pypdfium2/libopenjpeg.txt",
+    "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libpng.txt",
+    "path": "windows/third-party-licenses/pypdfium2/libpng.txt",
+    "sha256": "452390433ba0f88aa3e2b122c647741b72a0c117cd6ed7a329b49785aecb5511"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libtiff.txt",
+    "path": "windows/third-party-licenses/pypdfium2/libtiff.txt",
+    "sha256": "92b72ba97e6c2749c2a94bc0ef646b47080217f1e772a482b33cf5a5f98a6506"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/llvm-libc.txt",
+    "path": "windows/third-party-licenses/pypdfium2/llvm-libc.txt",
+    "sha256": "3b6226c32e168c83b891d8d6f0d3c29c2116dc3ef93dc93c307b54f279ecf383"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/pdfium-binaries.txt",
+    "path": "windows/third-party-licenses/pypdfium2/pdfium-binaries.txt",
+    "sha256": "8854f4388f1ca13b3ad9baa42e95f5546b4c0b17109c159256d3eca7be39b09b"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/pdfium.txt",
+    "path": "windows/third-party-licenses/pypdfium2/pdfium.txt",
+    "sha256": "961eacd9633fff6d051db7208b755e9210e30efac7adec3e6a6d52798f0ccf0e"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/simdutf.txt",
+    "path": "windows/third-party-licenses/pypdfium2/simdutf.txt",
+    "sha256": "c172a0ba936ff31230febb5dad869e25cb7c1a07480c7a381be8cf011bb52719"
+  },
+  {
+    "component": "pypdfium2",
+    "source": "pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/zlib.txt",
+    "path": "windows/third-party-licenses/pypdfium2/zlib.txt",
+    "sha256": "33fd641c9f3b0e0be64bc78fea9e94807674cdd70c48477599226cb8956565fe"
+  },
+  {
+    "component": "pywin32-ctypes",
+    "source": "pywin32_ctypes-0.2.3.dist-info/LICENSE.txt",
+    "path": "windows/third-party-licenses/pywin32-ctypes/LICENSE.txt",
+    "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+  },
+  {
+    "component": "reportlab",
+    "source": "reportlab-4.4.9.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/reportlab/LICENSE",
+    "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138"
+  },
+  {
+    "component": "reportlab",
+    "source": "reportlab/fonts/bitstream-vera-license.txt",
+    "path": "windows/third-party-licenses/reportlab/bitstream-vera-license.txt",
+    "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools-84.0.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/b8b1f5f0-LICENSE",
+    "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/4a7fd6a9-LICENSE",
+    "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/LICENSE",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/4d09286a-LICENSE",
+    "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/63a92caf-LICENSE",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/6562dd76-LICENSE",
+    "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/c2780f51-LICENSE",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+    "path": "windows/third-party-licenses/setuptools/LICENSE.APACHE",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+    "path": "windows/third-party-licenses/setuptools/LICENSE.BSD",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/d6b8bc45-LICENSE",
+    "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/1ab641e9-LICENSE",
+    "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+    "path": "windows/third-party-licenses/setuptools/LICENSE.txt",
+    "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/setuptools/0e45092c-LICENSE",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/config/NOTICE",
+    "path": "windows/third-party-licenses/setuptools/NOTICE",
+    "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+  },
+  {
+    "component": "setuptools",
+    "source": "setuptools/config/_validate_pyproject/NOTICE",
+    "path": "windows/third-party-licenses/setuptools/e972ee51-NOTICE",
+    "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+  },
+  {
+    "component": "typing_extensions",
+    "source": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+    "path": "windows/third-party-licenses/typing_extensions/LICENSE",
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "component": "CPython",
+    "path": "windows/third-party-licenses/CPython-LICENSE.txt",
+    "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a"
+  },
+  {
+    "component": "Tk",
+    "path": "windows/third-party-licenses/Tk-LICENSE.txt",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  }
+]

@@ -1,11 +1,19 @@
+# Local development and generated user/build data
+__pycache__/
+*.py[cod]
+.venv/
+.windows-runtime/
+build/
+dist/
 .DS_Store
+*.log
+*.egg-info/
+windows/.verification/
 .build/
 .swiftpm/
 DerivedData/
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
-__pycache__/
-*.py[cod]
 Page Capture Sessions/
 Captures/
 Exports/
@@ -15,3 +23,4 @@ Exports/
 *.jpeg
 !docs/**/*.png
 !docs/**/*.jpg
+!windows/assets/*.png
