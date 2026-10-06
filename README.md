@@ -36,9 +36,11 @@ The design is local-first:
 
 See [PRIVACY.md](PRIVACY.md) and [SECURITY.md](SECURITY.md).
 
-## macOS direction
+## macOS port status
 
-The macOS port is planned as a native Swift application using Apple frameworks for screen-capture permission, region selection, global shortcuts, local image handling, and PDF output. The port must retain the Windows tool's recovery and integrity guarantees while adapting correctly to Retina scaling, multiple displays, macOS permission prompts, and app lifecycle behavior.
+`macos/` now contains the first bounded native milestone: a Swift 6 `PageCaptureCore` package with unique local session directories, ordered lossless PNG records, exact decoded-pixel duplicate detection, recoverable undo, export preconditions, and one-image-per-page PDF export through a sibling temporary file and atomic install. A minimal SwiftUI executable can create/open a local session and display page, undo, and export state.
+
+Region capture, Screen Recording permission flow, coordinate correctness, global shortcuts, thumbnails, automatic capture, and packaged-app verification remain pending. The executable explicitly does not claim capture is implemented; no screen content is captured by this milestone.
 
 See [the macOS port specification](docs/MACOS_PORT_SPEC.md).
 
