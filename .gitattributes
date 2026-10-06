@@ -1,0 +1,2 @@
+# Preserve exact upstream legal text bytes and their recorded hashes.
+windows/third-party-licenses/** -text
